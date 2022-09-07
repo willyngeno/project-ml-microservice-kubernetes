@@ -1,11 +1,10 @@
-[![CircleCI](https://circleci.com/gh/vahiwe/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/vahiwe/project-ml-microservice-kubernetes)
 
-This project operationalizes a machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. A pre-trained sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on the data source site. This project operationalizes a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
+With the help of kubernetes, an open-source solution for automating the maintenance of containerized applications, this project operationalizes a machine learning microservice. a pre-trained sklearn model that has been taught to forecast housing costs in Boston based on a variety of characteristics, including the average number of rooms in a home and information on highway accessibility, teacher-to-student ratios, and other factors. On the website for the data source, you can learn more about the data, which was originally acquired from Kaggle. In a given file called app.py, this project operationalizes a Python flask application that uses API calls to deliver predictions (inference) about housing prices. Any pre-trained machine learning model, such as those for image recognition and data labeling, could be included in this project.
 ## :page_with_curl:  _Instructions_
 
 **1)** Fire up your favourite console & clone this repo somewhere:
-
+git clone https://github.com/willyngeno/project-ml-microservice-kubernetes.git
 
 **2)** Enter this directory:
 
